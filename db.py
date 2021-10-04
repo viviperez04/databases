@@ -1,3 +1,4 @@
+
 import cx_Oracle
 
 connection = cx_Oracle.connect(user="viviana_perez", password="qX%NVLrF0pQa",
