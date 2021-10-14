@@ -12,7 +12,7 @@ def output_type_handler(cursor, name, default_type, size, precision, scale):
 
 def main():
 
-    connection = cx_Oracle.connect(user="viviana_perez", password="qX%NVLrF0pQa",
+    connection = cx_Oracle.connect(user="", password="",
                                    dsn="rds.test.integrator.co.ua.la:1521/PTSDB")
     connection.outputtypehandler = output_type_handler
     cursor = connection.cursor()
